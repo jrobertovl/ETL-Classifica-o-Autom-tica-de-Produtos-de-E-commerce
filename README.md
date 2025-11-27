@@ -18,29 +18,17 @@ Pacote pronto para evolução
 ## 🧠 Exemplo de Uso
 - Este ETL percorre um catálogo de produtos e determina automaticamente sua categoria, com base em palavras-chave encontradas no nome e descrição do item.
 
-|  Ação  | prompt                                                                                 |
-| :----: | -------------------------------------------------------------------------------------- |
-| título | imagine um personagem 3D do garimpo, porém garimpando informações simulando uma mineração de dados |
-
 Entrada:
-
-id	|  nome	          | descricao
-
-| :---------: |--------------------------------------------- |
-
-1	  | Fone de ouvido	|  Fone bluetooth preto
-
-2	  | Camiseta preta	|  Roupa masculina básica
+|  id    | nome                                     |                                            |
+| :----: | ------------------------------------------------------------------------------------- |
+| 1      | Fone de ouvido	                          |  Fone bluetooth preto                      |
+| 2	     | Camiseta preta	                          |  Roupa masculina básica                    |
 
 Saída:
-
-id	|  nome	          | descricao	              |  categoria
-
-1	  Fone de ouvido	  | Fone bluetooth preto	  |  Eletronicos
-
-2	  Camiseta preta	  | Roupa masculina básica	|  Roupas
-
-
+|  id    | nome                             | descricao	              |  categoria               |
+| :----: | ------------------------------------------------------------------------------------- |
+| 1	     | Fone de ouvido	                  | Fone bluetooth preto	  |  Eletronicos             |
+| 2	     | Camiseta preta	                  | Roupa masculina básica	|  Roupas                  |
 
 - Atendimento automatizado de FAQs de RH
 - Integração com documentos da organização
