@@ -1,0 +1,20 @@
+{
+    "Eletronicos": [
+        "fone",
+        "notebook",
+        "celular",
+        "carregador"
+    ],
+    "Roupas": [
+        "camiseta",
+        "cal\u00e7a",
+        "bermuda",
+        "vestido"
+    ],
+    "Casa & Cozinha": [
+        "panela",
+        "prato",
+        "assadeira",
+        "copos"
+    ]
+}

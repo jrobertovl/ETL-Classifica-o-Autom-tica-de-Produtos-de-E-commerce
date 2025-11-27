@@ -1,0 +1,3 @@
+input: data/input
+output: data/output
+rules: etl/rules/categorias.json
