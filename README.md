@@ -22,6 +22,8 @@ Entrada:
 
 id	|  nome	          | descricao
 
+| :---------: |--------------------------------------------- |
+
 1	  | Fone de ouvido	|  Fone bluetooth preto
 
 2	  | Camiseta preta	|  Roupa masculina básica
