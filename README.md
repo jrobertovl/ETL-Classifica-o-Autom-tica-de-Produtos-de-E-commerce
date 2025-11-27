@@ -68,7 +68,7 @@ etl-classificacao-produtos/
 
 ## ⚙️ Instalação
 1. Clonar o repositório
-git clone https://github.com/jrobertovl/etl-classificacao-produtos.git
+git clone https://github.com/jrobertovl/ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce.git
 
 cd etl-classificacao-produtos
 
