@@ -83,14 +83,14 @@ Os dados processados serão salvos em:
 
 ##🛠️ Personalizando Regras de Classificação
 O arquivo etl/rules/categorias.json contém a lógica de classificação:
-{
-    "Eletronicos": ["fone", "notebook", "carregador"],
-    "Roupas": ["camiseta", "calça", "bermuda", "vestido"],
-    "Casa & Cozinha": ["panela", "prato", "assadeira", "copos"]
-}
+  {
+  "Eletronicos": ["fone", "notebook", "carregador"],
+  "Roupas": ["camiseta", "calça", "bermuda", "vestido"],
+  "Casa & Cozinha": ["panela", "prato", "assadeira", "copos"]
+  }
 
 Para criar novas categorias, basta adicionar:
-    "Esportes": ["bola", "tênis", "rede", "halter"]
+  "Esportes": ["bola", "tênis", "rede", "halter"]
 
 ## 🧪 Rodando os Testes
 Este projeto usa pytest.
