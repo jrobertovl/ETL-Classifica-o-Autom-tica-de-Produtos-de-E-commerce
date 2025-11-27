@@ -74,7 +74,7 @@ cd etl-classificacao-produtos
 2. Instalar dependências
 pip install -r requirements.txt
 
-##▶️ Como Executar o ETL
+## ▶️ Como Executar o ETL
 Execute o script principal:
     python main.py
 
@@ -82,6 +82,7 @@ Os dados processados serão salvos em:
     data/output/produtos_classificados.csv
 
 ##🛠️ Personalizando Regras de Classificação
+
 O arquivo etl/rules/categorias.json contém a lógica de classificação:
   
     {
