@@ -81,7 +81,7 @@ Execute o script principal:
 Os dados processados serão salvos em:
     data/output/produtos_classificados.csv
 
-##🛠️ Personalizando Regras de Classificação
+## 🛠️ Personalizando Regras de Classificação
 
 O arquivo etl/rules/categorias.json contém a lógica de classificação:
   
