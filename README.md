@@ -28,9 +28,9 @@ Entrada:
 
 Saída:
 
-|  id  | nome                                                        | descricao	 |
-| :----: | --------------------------------------------------------- | -------------|
-| 1 | Fone de ouvido |  Fone bluetooth preto                      |
+|  id  | nome                                                        | descricao	 | categoria      |
+| :----: | --------------------------------------------------------- | ------------- | ------------ |
+| 1 | Fone de ouvido |  Fone bluetooth preto                      | Eletronicos |
 
 |  id    | nome                             | descricao	              |  categoria               |
 | :----: | ------------------------------------------------------------------------------------- |
