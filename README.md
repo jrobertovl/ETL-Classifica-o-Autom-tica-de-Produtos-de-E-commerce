@@ -19,13 +19,19 @@ Pacote pronto para evolução
 - Este ETL percorre um catálogo de produtos e determina automaticamente sua categoria, com base em palavras-chave encontradas no nome e descrição do item.
 
 Entrada:
+
 id	nome	descricao
+
 1	Fone de ouvido	Fone bluetooth preto
+
 2	Camiseta preta	Roupa masculina básica
 
 Saída:
+
 id	nome	descricao	categoria
+
 1	Fone de ouvido	Fone bluetooth preto	Eletronicos
+
 2	Camiseta preta	Roupa masculina básica	Roupas
 
 
@@ -69,22 +75,22 @@ etl-classificacao-produtos/
 ## ⚙️ Instalação
 1. Clonar o repositório
 
-  git clone https://github.com/jrobertovl/ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce.git
+      git clone https://github.com/jrobertovl/ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce.git
 
 3. cd etl-classificacao-produtos
 
 4. Instalar dependências
 
-  pip install -r requirements.txt
+      pip install -r requirements.txt
 
 ## ▶️ Como Executar o ETL
-Execute o script principal:
+  Execute o script principal:
 
-python main.py
+  python main.py
 
-Os dados processados serão salvos em:
+  Os dados processados serão salvos em:
 
-data/output/produtos_classificados.csv
+  data/output/produtos_classificados.csv
 
 ## 🛠️ Personalizando Regras de Classificação
 
@@ -97,6 +103,7 @@ O arquivo etl/rules/categorias.json contém a lógica de classificação:
     }
 
 Para criar novas categorias, basta adicionar:
+  
   "Esportes": ["bola", "tênis", "rede", "halter"]
 
 ## 🧪 Rodando os Testes
