@@ -20,14 +20,11 @@ Pacote pronto para evolução
 
 Entrada:
 
-|  Id  | nome                                                        | -------------|
+|  id  | nome                                                        | descricao	 |
 | :----: | --------------------------------------------------------- | -------------|
 | 1 | Fone de ouvido |  Fone bluetooth preto                      |
+| 2 | Camiseta preta |  Roupa masculina básica                    |
 
-|  id    | nome                                     |                                            |
-| :----: | ------------------------------------------------------------------------------------- |
-| 1      | Fone de ouvido	                          |  Fone bluetooth preto                      |
-| 2	     | Camiseta preta	                          |  Roupa masculina básica                    |
 
 Saída:
 |  id    | nome                             | descricao	              |  categoria               |
