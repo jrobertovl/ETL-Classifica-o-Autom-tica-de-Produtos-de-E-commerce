@@ -22,7 +22,7 @@ Entrada:
 
 |  Id  | nome                                                                                |
 | :----: | -------------------------------------------------------------------------------------- |
-| título | imagine um personagem 3D do garimpo, porém garimpando informações simulando uma mineração de dados |
+| 1 | Fone de ouvido |
 
 |  id    | nome                                     |                                            |
 | :----: | ------------------------------------------------------------------------------------- |
