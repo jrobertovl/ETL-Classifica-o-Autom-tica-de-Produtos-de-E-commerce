@@ -68,19 +68,23 @@ etl-classificacao-produtos/
 
 ## ⚙️ Instalação
 1. Clonar o repositório
-   git clone https://github.com/jrobertovl/ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce.git
+
+  git clone https://github.com/jrobertovl/ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce.git
 
 3. cd etl-classificacao-produtos
 
 4. Instalar dependências
-   pip install -r requirements.txt
+
+  pip install -r requirements.txt
 
 ## ▶️ Como Executar o ETL
 Execute o script principal:
-  python main.py
+
+python main.py
 
 Os dados processados serão salvos em:
-  data/output/produtos_classificados.csv
+
+data/output/produtos_classificados.csv
 
 ## 🛠️ Personalizando Regras de Classificação
 
