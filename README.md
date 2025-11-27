@@ -31,11 +31,7 @@ Saída:
 |  id  | nome                                                        | descricao	 | categoria      |
 | :----: | --------------------------------------------------------- | ------------- | ------------ |
 | 1 | Fone de ouvido |  Fone bluetooth preto                      | Eletronicos |
-
-|  id    | nome                             | descricao	              |  categoria               |
-| :----: | ------------------------------------------------------------------------------------- |
-| 1	     | Fone de ouvido	                  | Fone bluetooth preto	  |  Eletronicos             |
-| 2	     | Camiseta preta	                  | Roupa masculina básica	|  Roupas                  |
+| 2	| Camiseta preta | Roupa masculina básica                     |  Roupas     |
 
 - Atendimento automatizado de FAQs de RH
 - Integração com documentos da organização
