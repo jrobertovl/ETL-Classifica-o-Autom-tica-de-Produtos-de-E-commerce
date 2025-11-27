@@ -19,6 +19,11 @@ Pacote pronto para evolução
 - Este ETL percorre um catálogo de produtos e determina automaticamente sua categoria, com base em palavras-chave encontradas no nome e descrição do item.
 
 Entrada:
+
+|  Ação  | prompt                                                                                 |
+| :----: | -------------------------------------------------------------------------------------- |
+| título | imagine um personagem 3D do garimpo, porém garimpando informações simulando uma mineração de dados |
+
 |  id    | nome                                     |                                            |
 | :----: | ------------------------------------------------------------------------------------- |
 | 1      | Fone de ouvido	                          |  Fone bluetooth preto                      |
