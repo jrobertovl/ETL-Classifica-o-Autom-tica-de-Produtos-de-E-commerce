@@ -18,6 +18,10 @@ Pacote pronto para evolução
 ## 🧠 Exemplo de Uso
 - Este ETL percorre um catálogo de produtos e determina automaticamente sua categoria, com base em palavras-chave encontradas no nome e descrição do item.
 
+|  Ação  | prompt                                                                                 |
+| :----: | -------------------------------------------------------------------------------------- |
+| título | imagine um personagem 3D do garimpo, porém garimpando informações simulando uma mineração de dados |
+
 Entrada:
 
 id	|  nome	          | descricao
