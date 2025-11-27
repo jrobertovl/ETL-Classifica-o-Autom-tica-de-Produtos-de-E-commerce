@@ -20,7 +20,7 @@ Pacote pronto para evolução
 
 Entrada:
 
-|  Ação  | prompt                                                                                 |
+|  Id  | nome                                                                                |
 | :----: | -------------------------------------------------------------------------------------- |
 | título | imagine um personagem 3D do garimpo, porém garimpando informações simulando uma mineração de dados |
 
