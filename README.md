@@ -1,2 +1,140 @@
-# ETL-Classifica-o-Autom-tica-de-Produtos-de-E-commerce
+📦 ETL – Classificação Automática de Produtos de E-commerce
+
 Este repositório contém um pipeline ETL completo e modular desenvolvido em Python para classificar automaticamente produtos de um e-commerce com base em palavras-chave.
+
+O projeto foi criado para demonstrar boas práticas de engenharia de dados, incluindo:
+
+Estrutura profissional de diretórios
+
+Separação clara entre Extract, Transform e Load
+
+Configurações externas
+
+Testes automatizados
+
+Arquivos de regras editáveis (sem necessidade de alterar código)
+
+Logs
+
+Pacote pronto para evolução
+
+🚀 Objetivo do Projeto
+
+Criar um sistema ETL capaz de:
+
+Extrair informações de produtos (CSV, banco de dados, APIs etc.)
+
+Transformar esses dados aplicando regras inteligentes de classificação
+
+Carregar os dados processados em outro sistema ou arquivo final
+
+O pipeline utiliza regras configuráveis em JSON, facilitando manutenções e ampliando as possibilidades de uso.
+
+🧠 Exemplo de Uso
+
+Este ETL percorre um catálogo de produtos e determina automaticamente sua categoria, com base em palavras-chave encontradas no nome e descrição do item.
+
+Entrada:
+
+id	nome	descricao
+1	Fone de ouvido	Fone bluetooth preto
+2	Camiseta preta	Roupa masculina básica
+
+Saída:
+
+id	nome	descricao	categoria
+1	Fone de ouvido	Fone bluetooth preto	Eletronicos
+2	Camiseta preta	Roupa masculina básica	Roupas
+📂 Estrutura do Repositório
+etl-classificacao-produtos/
+│
+├── data/
+│   ├── input/                  # Onde ficam dados brutos
+│   ├── output/                 # Resultados gerados pelo ETL
+│   └── sample/                 # Exemplos e pequenos datasets
+│
+├── etl/
+│   ├── extractor.py            # Módulo de extração
+│   ├── transformer.py          # Módulo de transformação/classificação
+│   ├── loader.py               # Módulo de carregamento
+│   └── rules/
+│       └── categorias.json     # Regras de classificação (editável)
+│
+├── config/
+│   └── settings.yaml           # Configurações gerais do pipeline
+│
+├── utils/
+│   └── logger.py               # Logger padronizado
+│
+├── tests/
+│   └── test_transformer.py     # Testes com pytest
+│
+├── main.py                     # Script principal do ETL
+├── requirements.txt            # Dependências Python
+├── README.md                   # Documentação
+└── LICENSE                     # MIT License
+
+⚙️ Instalação
+1. Clonar o repositório
+git clone https://github.com/SEU-USUARIO/etl-classificacao-produtos.git
+cd etl-classificacao-produtos
+
+2. Instalar dependências
+pip install -r requirements.txt
+
+▶️ Como Executar o ETL
+
+Execute o script principal:
+
+python main.py
+
+
+Os dados processados serão salvos em:
+
+data/output/produtos_classificados.csv
+
+🛠️ Personalizando Regras de Classificação
+
+O arquivo etl/rules/categorias.json contém a lógica de classificação:
+
+{
+    "Eletronicos": ["fone", "notebook", "carregador"],
+    "Roupas": ["camiseta", "calça", "bermuda", "vestido"],
+    "Casa & Cozinha": ["panela", "prato", "assadeira", "copos"]
+}
+
+
+Para criar novas categorias, basta adicionar:
+
+"Esportes": ["bola", "tênis", "rede", "halter"]
+
+🧪 Rodando os Testes
+
+Este projeto usa pytest.
+
+Execute:
+
+pytest -v
+
+📌 Boas Práticas Aplicadas
+
+✔ Arquitetura limpa e separada por responsabilidade
+✔ Regras externas e configuráveis
+✔ Logging padronizado
+✔ Estrutura completa para GitHub
+✔ Testes automatizados
+✔ Código fácil de expandir (pode virar microserviço, Lambda, Airflow etc.)
+
+💡 Possíveis Extensões Futuras
+
+Dashboard com métricas de classificação (Streamlit)
+
+Deploy em AWS Lambda
+
+Uso de banco de dados SQLite/PostgreSQL
+
+Integração com Airflow ou Prefect
+
+Refinamento com Machine Learning (Naive Bayes, SVM, embeddings etc.)
+
+API REST para classificação em tempo real
