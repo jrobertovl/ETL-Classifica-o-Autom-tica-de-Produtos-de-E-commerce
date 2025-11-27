@@ -68,7 +68,7 @@ etl-classificacao-produtos/
 
 ## ⚙️ Instalação
 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/etl-classificacao-produtos.git
+git clone https://github.com/jrobertovl/etl-classificacao-produtos.git
 cd etl-classificacao-produtos
 
 2. Instalar dependências
